@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "../ejercicio001"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "ejercicio002"
+	}
+}
