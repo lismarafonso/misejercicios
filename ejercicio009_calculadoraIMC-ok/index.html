@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://fpaniaguajavascript.github.io/librerias/calculadorimc.js"></script>
+</head>
+<body>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="number" id="edad" placeholder="Edad">
+    <input type="number" id="altura" placeholder="Altura">
+    <input type="number" id="peso" placeholder="Peso"> 
+    <span id="resultado"></span>
+    <span id="error"></span>  
+    <button onclick="validar()">Calcular</button> 
+</body>
+</html>
+<script>
+    var nombreUsuario;
+    function validar()
+    {
+        nombre = document.querySelector("#nombre").value;
+        edad = document.querySelector("#edad").value;
+        peso = document.querySelector("#peso").value;
+        altura = document.querySelector("#altura").value;
+        calcular(peso, altura);
+    }
+    function calcular(peso, altura)
+    {
+        alert(calcularIMC(peso, altura));
+    }
+</script>

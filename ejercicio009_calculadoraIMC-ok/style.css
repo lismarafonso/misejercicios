@@ -1,0 +1,62 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+input, button, span {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Estilos para el contenedor principal */
+body {
+    max-width: 600px;
+    margin: auto;
+}
+
+input {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+span#resultado, span#error {
+    font-weight: bold;
+    color: #d9534f; /* Color rojo para el error */
+}
+
+span#resultado {
+    color: #5cb85c; /* Color verde para el resultado */
+}
+
+/* Estilos responsivos */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+
+    input, button, span {
+        font-size: 14px;
+        padding: 8px;
+    }
+}
