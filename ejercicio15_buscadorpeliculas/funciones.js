@@ -9,18 +9,18 @@ document.querySelector("#bAgregar").addEventListener("click", (event) => {
         genero: genero,
         fotografia: fotografia
     }
-    peliculas.push(peliculas);
+    peliculas.push(pelicula);
     crearListadoPeliculas(peliculas);
 });
 
 function crearListadoPeliculas(peliculas) {
     let htmlPeliculas = "";
-    peliculas.map((peliculas) => {
+    peliculas.map((pelicula) => {
         htmlPeliculas += `<div class="nombre">
-            <div class="nombre-pelicula">${peliculas.nombre}</div>
-            <div class="genero-genero">${peliculas.genero}</div>
+            <div class="nombre-pelicula">${pelicula.nombre}</div>
+            <div class="genero-genero">${pelicula.genero}</div>
             <div class="div-imagen">
-                <img src="${peliculas.fotografia}">
+                <img src="${pelicula.fotografia}">
             </div>
         </div>`;
     });
