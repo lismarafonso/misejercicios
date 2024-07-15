@@ -1,0 +1,89 @@
+[
+    {
+        "Titulo": "The Notebook",
+        "Genero": "Romance",
+        "Fecha": 2004,
+        "Productor": "Nick Cassavetes",
+        "Valoracion": 10,
+        "Portada": "https://basededatos.atrae.org/media/works/rNzQyW4f8B8cQeg7Dgj3n6eT5k9_91fwJDk.jpg"
+    },
+    {
+        "Titulo": "Titanic",
+        "Genero": "Romance, Aventura",
+        "Fecha": 1997,
+        "Productor": "James Cameron",
+        "Valoracion": 10,
+        "Portada": "https://www.reddit.com/media?url=https%3A%2F%2Fi.redd.it%2Fes9pbmd98s6b1.jpg"
+    },
+    {
+        "Titulo": "Votos de amor",
+        "Genero": "Romance",
+        "Fecha": 2012,
+        "Productor": "Michael Sucsy",
+        "Valoracion": 10,
+        "Portada": "https://pics.filmaffinity.com/the_vow-179178511-large.jpg"
+    },
+    {
+        "Titulo": "Yo antes de ti",
+        "Genero": "Romance",
+        "Fecha": 2016,
+        "Productor": "Thea Sharrock",
+        "Valoracion": 10
+    },
+    {
+        "Titulo": "Bajo la misma estrella",
+        "Genero": "Romance, comedia",
+        "Fecha": 2014,
+        "Productor": "Josh Boone",
+        "Valoracion": 10
+    },
+    {
+        "Titulo": "Tres metros sobre el cielo",
+        "Genero": "Romance, accion",
+        "Fecha": 2010,
+        "Productor": "Fernando González Molina",
+        "Valoracion": 10
+    },
+    {
+        
+            "Title": "Titanic",
+            "Year": "1997",
+            "Rated": "PG-13",
+            "Released": "19 Dec 1997",
+            "Runtime": "194 min",
+            "Genre": "Drama, Romance",
+            "Director": "James Cameron",
+            "Writer": "James Cameron",
+            "Actors": "Leonardo DiCaprio, Kate Winslet, Billy Zane",
+            "Plot": "A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.",
+            "Language": "English, Swedish, Italian, French",
+            "Country": "United States, Mexico",
+            "Awards": "Won 11 Oscars. 126 wins & 83 nominations total",
+            "Poster": "https://m.media-amazon.com/images/M/MV5BMDdmZGU3NDQtY2E5My00ZTliLWIzOTUtMTY4ZGI1YjdiNjk3XkEyXkFqcGdeQXVyNTA4NzY1MzY@._V1_SX300.jpg",
+            "Ratings": [
+                {
+                    "Source": "Internet Movie Database",
+                    "Value": "7.9/10"
+                },
+                {
+                    "Source": "Rotten Tomatoes",
+                    "Value": "88%"
+                },
+                {
+                    "Source": "Metacritic",
+                    "Value": "75/100"
+                }
+            ],
+            "Metascore": "75",
+            "imdbRating": "7.9",
+            "imdbVotes": "1,292,276",
+            "imdbID": "tt0120338",
+            "Type": "movie",
+            "DVD": "N/A",
+            "BoxOffice": "$674,292,608",
+            "Production": "N/A",
+            "Website": "N/A",
+            "Response": "True"
+        
+    }
+]
