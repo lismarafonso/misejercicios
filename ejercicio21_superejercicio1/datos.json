@@ -28,21 +28,24 @@
         "Genero": "Romance",
         "Fecha": 2016,
         "Productor": "Thea Sharrock",
-        "Valoracion": 10
+        "Valoracion": 10,
+        "Portada": "https://pics.filmaffinity.com/me_before_you-594538815-large.jpg"
     },
     {
         "Titulo": "Bajo la misma estrella",
         "Genero": "Romance, comedia",
         "Fecha": 2014,
         "Productor": "Josh Boone",
-        "Valoracion": 10
+        "Valoracion": 10,
+        "Portada": "https://pics.filmaffinity.com/the_fault_in_our_stars-457483777-large.jpg"
     },
     {
         "Titulo": "Tres metros sobre el cielo",
         "Genero": "Romance, accion",
         "Fecha": 2010,
         "Productor": "Fernando González Molina",
-        "Valoracion": 10
+        "Valoracion": 10,
+        "Portada": "https://pics.filmaffinity.com/3_metros_sobre_el_cielo-961927049-large.jpg"
     },
     {
         
