@@ -13,26 +13,26 @@ function getPeliculas(url, port, recurso) {
         }
     });
     client.open("GET", `${url}:${port}/${recurso}`);
+    console.log(`${url}:${port}/${recurso}`);
     client.send();
-}  
+}
 
-function mostrarDatos(datos)
-{
+function mostrarDatos(datos) {
     let peliculas = JSON.parse(datos);
-    peliculas.forEach(peliculas => {
+    peliculas.Search.forEach(pelicula => {
         let ficha = `<div class="pelicula">
-            <div class="titulo">${pelicula.titulo}</div>
-            <div class="plataforma">${pelicula.plataforma}</div>
+            <div class="titulo">${pelicula.Title}</div>
+            <div class="plataforma">${pelicula.Year}</div>
             <div class="imagen">
-                <img src="${pelicula.caratula}">
+                <img src="${pelicula.Poster}">
             </div>
         </div>`;
-    document.querySelector("#peliculas").innerHTML+=ficha; 
-    });   
+        document.querySelector("#peliculas").innerHTML += ficha;
+    });
 }
 
-function mostrarPaginaError(codigo){
-    document.querySelector("#peliculas").innerHTML=`<h1>Ha ocurrido un error:${codigo}</h1>`;   
+function mostrarPaginaError(codigo) {
+    document.querySelector("#peliculas").innerHTML = `<h1>Ha ocurrido un error:${codigo}</h1>`;
 }
 
-getPeliculas("http://localhost",5501,"datos.json");
+getPeliculas("https://www.omdbapi.com", 443, "?apikey=8dfe0266&s=superman&pages=1");
