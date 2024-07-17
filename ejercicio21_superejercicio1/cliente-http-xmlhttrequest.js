@@ -35,4 +35,4 @@ function mostrarPaginaError(codigo) {
     document.querySelector("#peliculas").innerHTML = `<h1>Ha ocurrido un error:${codigo}</h1>`;
 }
 
-getPeliculas("https://www.omdbapi.com", 443, "?apikey=8dfe0266&s=superman&pages=1");
+getPeliculas("https://www.omdbapi.com", 443, "?apikey=8dfe0266&s=avengers&pages=2");
