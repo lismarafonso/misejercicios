@@ -1,0 +1,3 @@
+[object Undefined]Los dos sumandos deben ser números
+[object Undefined]Los dos sumandos deben ser números
+[object Undefined]Los dos sumandos deben ser números
