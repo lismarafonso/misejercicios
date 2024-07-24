@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #div-color {
+        width: 100%;
+        height: 200px;
+    }
+</style>
+
+<body>
+    <button id="boton1" alberto="10">Saludar</button>
+    <button id="boton2">Saludar</button>
+    <div id="div-color">
+
+    </div>
+</body>
+
+</html>
+<script>
+    document.querySelector("#boton1").onclick = () => alert("Hola");
+    document.querySelector("#boton1").onclick = () => alert("Adios");//Sólo queda esta
+
+    document.querySelector("#boton2").addEventListener("click", () => { alert("Hi") });
+    document.querySelector("#boton2").addEventListener("click", () => { alert("Hello") });
+
+    const divColor = document.querySelector("#div-color");
+    let color = 0;
+    divColor.addEventListener("wheel", (e) => {
+        color += e.deltaY * 0.1;
+        divColor.style.backgroundColor = `#${color}${color}${color}`;
+        console.log(color);
+    })
+</script>

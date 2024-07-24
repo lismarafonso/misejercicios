@@ -1,0 +1,11 @@
+.rojo {
+    color: aqua;
+}
+
+.verde {
+    color: rgb(136, 127, 255);
+}
+
+.negrita {
+    font-weight: bolder;
+}

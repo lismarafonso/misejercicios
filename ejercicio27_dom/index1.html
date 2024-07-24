@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creacion de elementos en DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+</body>
+
+</html>
+<script>
+    let encabezado = document.createElement("h1");
+    document.querySelector("body").appendChild(encabezado);
+
+    let textoEncabezado = document.createTextNode("Seccion principal");
+    encabezado.appendChild(textoEncabezado);
+    //Creacion de un atributo creando el elemento
+    let atributoEncabezado = document.createAttribute("class");
+    atributoEncabezado.value = "rojo";
+    encabezado.setAttributeNode(atributoEncabezado);
+    //Creacion del atributo mediante el metodo setAttribute
+    encabezado.setAttribute("id", "encabezado1");
+    //asi se hacia en los 80's
+    setInterval(() => {
+        if (atributoEncabezado.value === "verde") {
+            atributoEncabezado.value = "rojo";
+        } else {
+            atributoEncabezado.value = "verde"
+        }
+    }, 900);
+</script>
